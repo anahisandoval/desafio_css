@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contacto</h1>
+            <div id="menu">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="quienessomos.html">Quienes Somos</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>
+                  <li><a href="programacion.html">Programación</a></li>
+                  <li><a href="banda_mes.html">Banda del Mes</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        <form action="contacto.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Envianos tu mensaje </legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Ingresa tu Nombre" />
+            <br /><br />
+            <label for="email">Email: </label>
+            <input type="text" name="email" placeholder="Ingresa tu Email" />
+            <br /><br />
+            <label for="asunto">Asunto: </label>
+            <input type="text" name="asunto" placeholder="Escribe tu mensaje" />
+            <br /><br />
+            <label for="mensaje">Mensaje</label><br />
+            <textarea name="mensaje" id="comentarios" rows="5" cols="40"></textarea>
+        </fieldset>
+        <br /><br />
+        <div>
+            <input type="submit" value="Enviar mensaje"/>
+            <input type="reset" value="Limpiar datos"/>
+            <input type="button" value="Cancelar"/>
+          </div>
+
+    </form>
+    <footer id="mi_footer" style="margin-top: 420px"><a href="https://www.fmterra.onlineradio.com.ar" target="_blank">Radio FM Terra 93.3 - Río Grande - Tierra del Fuego - Argentina</a></footer>
+    </body>
+</html>

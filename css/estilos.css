@@ -1,0 +1,48 @@
+h1{
+    color: rgb(10, 8, 116);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-bottom: 5mm;
+}
+body{
+  background-color: rgb(65, 64, 64);
+}
+header > div > nav > ul > li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 5mm;
+  margin-right: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  
+  height: 80px;
+  padding-bottom: 1cm;
+}
+header{
+  background:rgb(6, 146, 151);
+  text-align: center;
+}
+footer{
+  background:rgb(6, 146, 151);
+  text-align: center;
+}
+.rounded{
+    border-radius: 30%;
+    padding-top: 2mm;
+    padding-left: 2mm;
+}
+
+#clima{
+  float: right;
+}
+
+#logo{
+  float:left;
+  width: max-content;
+}
+#banner{
+  float:right;
+}
+#redes{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
